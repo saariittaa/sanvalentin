@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    background-image:url(../img/7c909ff95f65cf8447aecf8bba7adb37.jpg);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+
+.heart-img {
+    width: 200px;
+    height: auto;
+    margin: 20px 0;
+    animation: latido 1s infinite alternate;
+}
+
+
+@keyframes latido {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+}
+
+button {
+    background: #ea6060;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #db6767;
+    transform: scale(1.1);
+}
+
+
+.mensaje {
+    opacity: 0;
+    font-size: 20px;
+    transition: opacity 1s ease-in-out;
+}
+
+
+.botones {
+    margin-top: 20px;
+}
